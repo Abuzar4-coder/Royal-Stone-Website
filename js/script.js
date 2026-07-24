@@ -199,14 +199,31 @@ faqs.forEach((f, i) => {
   });
 });
 
-/* ---------- contact form (front-end only) ---------- */
+/* ---------- contact form → redirects to WhatsApp with the message pre-filled ---------- */
+const WHATSAPP_NUMBER = '923414781263'; // 0341-4781263 in international format, no leading 0 or +
+
 function handleSubmit(e) {
   e.preventDefault();
-  const btn = e.target.querySelector('button');
+  const form = e.target;
+  const name = form.querySelector('input[type="text"]').value.trim();
+  const phone = form.querySelector('input[type="tel"]').value.trim();
+  const email = form.querySelector('input[type="email"]').value.trim();
+  const message = form.querySelector('textarea').value.trim();
+
+  let text = `New Inquiry from Website\n\nName: ${name}\nPhone: ${phone}`;
+  if (email) text += `\nEmail: ${email}`;
+  text += `\nMessage: ${message}`;
+
+  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+
+  const btn = form.querySelector('button');
   const original = btn.textContent;
-  btn.textContent = 'Message Sent ✓';
+  btn.textContent = 'Opening WhatsApp...';
   btn.style.background = '#D6BC83';
-  setTimeout(() => { btn.textContent = original; btn.style.background = ''; e.target.reset(); }, 2600);
+
+  window.open(url, '_blank');
+
+  setTimeout(() => { btn.textContent = original; btn.style.background = ''; form.reset(); }, 1800);
   return false;
 }
 
