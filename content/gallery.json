@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "category": "flooring",
+      "image": "https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "kitchen",
+      "image": "https://images.pexels.com/photos/5506219/pexels-photo-5506219.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "wall",
+      "image": "https://images.pexels.com/photos/32129603/pexels-photo-32129603.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "stairs",
+      "image": "https://images.pexels.com/photos/16709869/pexels-photo-16709869.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "flooring",
+      "image": "https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "kitchen",
+      "image": "https://images.pexels.com/photos/5623225/pexels-photo-5623225.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "wall",
+      "image": "https://images.pexels.com/photos/3575827/pexels-photo-3575827.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "stairs",
+      "image": "https://images.pexels.com/photos/6039191/pexels-photo-6039191.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "flooring",
+      "image": "https://images.pexels.com/photos/7750107/pexels-photo-7750107.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "kitchen",
+      "image": "https://images.pexels.com/photos/30742339/pexels-photo-30742339.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "wall",
+      "image": "https://images.pexels.com/photos/7245527/pexels-photo-7245527.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "flooring",
+      "image": "https://images.pexels.com/photos/15011349/pexels-photo-15011349.jpeg?auto=compress&cs=tinysrgb&w=700"
+    }
+  ]
+}

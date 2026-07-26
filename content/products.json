@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "category": "Flooring",
+      "name": "Sunny White Marble",
+      "description": "Bright, uniform white marble — Pakistan's most requested flooring stone.",
+      "image": "https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Flooring",
+      "name": "Tavera Marble",
+      "description": "Warm, softly veined marble for an inviting floor.",
+      "image": "https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Kitchen",
+      "name": "Black Galaxy Granite",
+      "description": "Dense black granite with fine gold flecking, built to last.",
+      "image": "https://images.pexels.com/photos/5506219/pexels-photo-5506219.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Kitchen",
+      "name": "White Quartz Countertops",
+      "description": "Engineered quartz — consistent, non-porous, easy to maintain.",
+      "image": "https://images.pexels.com/photos/5623225/pexels-photo-5623225.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Wall",
+      "name": "Natural Stone Wall Cladding",
+      "description": "Textured natural stone for feature and exterior walls.",
+      "image": "https://images.pexels.com/photos/32129603/pexels-photo-32129603.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Wall",
+      "name": "Stacked Stone Wall Panels",
+      "description": "Layered stacked-stone texture for a rustic, refined accent wall.",
+      "image": "https://images.pexels.com/photos/3575827/pexels-photo-3575827.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Mosaic",
+      "name": "Marble Mosaic Tiles",
+      "description": "Fine marble chips set in classic mosaic patterns.",
+      "image": "https://images.pexels.com/photos/7245527/pexels-photo-7245527.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Mosaic",
+      "name": "Glass Mosaic Tiles",
+      "description": "Reflective glass mosaic for kitchens and bathrooms.",
+      "image": "https://images.pexels.com/photos/30742339/pexels-photo-30742339.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Stairs",
+      "name": "Straight Marble Staircase",
+      "description": "Grand straight-run marble stairs as a centrepiece.",
+      "image": "https://images.pexels.com/photos/16709869/pexels-photo-16709869.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Stairs",
+      "name": "Granite Staircase",
+      "description": "Hard-wearing granite treads for high-traffic stairways.",
+      "image": "https://images.pexels.com/photos/6039191/pexels-photo-6039191.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Grass",
+      "name": "Landscape Artificial Grass",
+      "description": "Lush, even, low-maintenance turf for gardens and lawns.",
+      "image": "https://images.pexels.com/photos/13083599/pexels-photo-13083599.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "category": "Grass",
+      "name": "Sports Artificial Grass",
+      "description": "Durable synthetic turf built for active, all-weather use.",
+      "image": "https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=700"
+    }
+  ]
+}

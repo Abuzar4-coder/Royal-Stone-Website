@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded photos get stored in the repo, and the path used to display them on the site
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "content/products.json"
+        label: "Product Catalogue"
+        name: "products"
+        fields:
+          - label: "Products"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.category}} — {{fields.name}}"
+            fields:
+              - {label: "Category", name: "category", widget: "select", options: ["Flooring", "Kitchen", "Wall", "Mosaic", "Stairs", "Grass"], hint: "Which tab this product appears under on the Products section"}
+              - {label: "Product Name", name: "name", widget: "string"}
+              - {label: "Short Description", name: "description", widget: "text"}
+              - {label: "Photo", name: "image", widget: "image"}
+
+  - name: "gallery"
+    label: "Gallery"
+    files:
+      - file: "content/gallery.json"
+        label: "Gallery Images"
+        name: "gallery"
+        fields:
+          - label: "Images"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.category}}"
+            fields:
+              - {label: "Category", name: "category", widget: "select", options: ["flooring", "kitchen", "wall", "stairs"], hint: "Which filter button this photo shows under in the Gallery section"}
+              - {label: "Photo", name: "image", widget: "image"}
+
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - file: "content/faq.json"
+        label: "Frequently Asked Questions"
+        name: "faq"
+        fields:
+          - label: "Questions"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "text"}
